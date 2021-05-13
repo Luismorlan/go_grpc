@@ -9,5 +9,9 @@ service HelloWorld {
 message HelloWorldRequest{}
 
 message HelloWorldResponse{
+  Data data = 1; 
+}
+
+message Data {
   string text = 1;
 }
