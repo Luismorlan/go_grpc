@@ -34,5 +34,5 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	log.Println("Received text: ", res.Text)
+	log.Println("Received text: ", res.Data.Text)
 }
